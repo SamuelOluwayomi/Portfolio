@@ -1,0 +1,38 @@
+export const wins = [
+  {
+    id: 'cyber-scroll',
+    event: 'Scrolly x Superteam UK — No-Code Game Jam',
+    project: 'Cyber Scroll',
+    prize: '$500',
+    date: 'Jan 2026',
+    description: 'One of ten selected winners from a global game jam with a $5,000 prize pool.',
+    isHighlight: true,
+  },
+  {
+    id: 'ledger',
+    event: 'Ledger N3XT — Build and Show with the Ledger Agent Stack',
+    project: 'Ledger Solana Agent',
+    prize: '$100',
+    date: 'Jun 2026',
+    description: 'One of the first fifty valid submissions globally.',
+    isHighlight: false,
+  },
+  {
+    id: 'injective',
+    event: 'Injective — Ninja Break: Chill Building Weeks',
+    project: 'Injective Ecosystem Overview',
+    prize: 'Win',
+    date: '2024',
+    description: 'UI bounty on Injective. The first win. The one that proved the direction.',
+    isHighlight: false,
+  },
+  {
+    id: 'fairscale',
+    event: 'FairScale — Solana Build Bounty',
+    project: 'CadPay FairScore',
+    prize: 'Special Mention',
+    date: '2025',
+    description: 'Recognised among submissions for the FairScale reputation scoring bounty on Superteam.',
+    isHighlight: false,
+  },
+];
