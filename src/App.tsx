@@ -13,12 +13,14 @@ import { FieldNotes } from './components/FieldNotes';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { QuoteInterstitial } from './components/QuoteInterstitial';
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <ScrollProgress />
       <Nav />
+      <ScrollToTop />
 
       <main>
         {/* Act I */}
