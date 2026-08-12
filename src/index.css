@@ -1249,19 +1249,23 @@ ul, ol { list-style: none; }
   margin: 0;
 }
 
-/* DeFi puzzle image — decorative bottom-left corner prop */
-.footer__defi-prop {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 220px;
-  height: 220px;
+/* DeFi puzzle image — moved to Contact section */
+.contact__defi-wrap {
+  margin-top: 2.5rem;
+  position: relative;
+}
+
+.contact__defi-img {
+  width: 100%;
+  max-width: 280px;
+  height: 180px;
   object-fit: cover;
-  object-position: center;
-  opacity: 0.06;
-  filter: grayscale(1) sepia(0.3);
-  pointer-events: none;
-  z-index: 1;
+  border-radius: var(--radius-sm);
+  opacity: 0.18;
+  filter: grayscale(0.4) sepia(0.2);
+  transform: rotate(-1.5deg);
+  display: block;
+  box-shadow: 0 4px 20px hsl(210 15% 12% / 0.15);
 }
 
 /* ---- PROJECT CARD ---- */

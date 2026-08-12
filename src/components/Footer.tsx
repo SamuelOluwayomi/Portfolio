@@ -3,14 +3,6 @@ import { motion } from 'framer-motion';
 export function Footer() {
   return (
     <footer className="footer">
-      {/* DeFi puzzle image — decorative prop bottom left */}
-      <img
-        src="/defi1.jpg"
-        alt=""
-        aria-hidden="true"
-        className="footer__defi-prop"
-      />
-
       <div className="footer__center">
         {/* Real stamp image */}
         <motion.img

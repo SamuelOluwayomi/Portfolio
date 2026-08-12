@@ -124,6 +124,22 @@ export function Contact() {
               {link.label}
             </motion.a>
           ))}
+
+          {/* Defi puzzle image — decorative prop below social links */}
+          <motion.div
+            className="contact__defi-wrap"
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.5 }}
+          >
+            <img
+              src="/defi1.jpg"
+              alt=""
+              aria-hidden="true"
+              className="contact__defi-img"
+            />
+          </motion.div>
         </motion.div>
 
         {/* Right: Form */}
