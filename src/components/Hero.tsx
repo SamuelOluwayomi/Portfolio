@@ -12,6 +12,14 @@ export function Hero() {
       {/* Dot grid background */}
       <div className="hero__bg" aria-hidden="true" />
 
+      {/* Stamp watermark — top-right decorative prop */}
+      <img
+        src="/stamp.jpg"
+        alt=""
+        aria-hidden="true"
+        className="hero__stamp-prop"
+      />
+
       {/* Corner bracket SVGs */}
       <svg
         className="hero__bracket hero__bracket--tl"

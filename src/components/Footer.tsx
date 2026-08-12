@@ -1,30 +1,42 @@
+import { motion } from 'framer-motion';
+
 export function Footer() {
   return (
     <footer className="footer">
-      {/* Wax seal SVG */}
-      <svg
-        className="footer__seal"
-        width="40"
-        height="40"
-        viewBox="0 0 40 40"
-        fill="none"
+      {/* DeFi puzzle image — decorative prop bottom left */}
+      <img
+        src="/defi1.jpg"
+        alt=""
         aria-hidden="true"
-      >
-        <circle cx="20" cy="20" r="18" stroke="currentColor" strokeWidth="1" />
-        <circle cx="20" cy="20" r="13" stroke="currentColor" strokeWidth="0.5" strokeDasharray="2 2" />
-        <text
-          x="20"
-          y="24"
-          textAnchor="middle"
-          fontFamily="Space Mono, monospace"
-          fontSize="7"
-          fill="currentColor"
-          letterSpacing="1"
-        >
-          DS
-        </text>
-      </svg>
-      <p className="footer__text">DevSam // File Closed // 2026</p>
+        className="footer__defi-prop"
+      />
+
+      <div className="footer__center">
+        {/* Real stamp image */}
+        <motion.img
+          src="/stamp.jpg"
+          alt=""
+          aria-hidden="true"
+          className="footer__stamp-img"
+          initial={{ rotate: -6, opacity: 0 }}
+          whileInView={{ rotate: -6, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        />
+
+        {/* Signature */}
+        <motion.img
+          src="/signature.jpg"
+          alt="Samuel Oluwayomi signature"
+          className="footer__signature"
+          initial={{ opacity: 0, y: 8 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.4 }}
+        />
+
+        <p className="footer__text">DevSam // File Closed // 2026</p>
+      </div>
     </footer>
   );
 }

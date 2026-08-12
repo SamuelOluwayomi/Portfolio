@@ -3,6 +3,7 @@ import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
 import { Origin } from './components/Origin';
 import { Process } from './components/Process';
+import { TechTicker } from './components/TechTicker';
 import { Projects } from './components/Projects';
 import { Failures } from './components/Failures';
 import { Wins } from './components/Wins';
@@ -40,6 +41,9 @@ function App() {
           text="Opportunities do not happen. You create them."
           author="Chris Grosser"
         />
+
+        {/* Tech Stack Ticker */}
+        <TechTicker />
 
         {/* Act IV */}
         <Projects />

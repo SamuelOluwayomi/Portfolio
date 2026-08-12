@@ -31,8 +31,13 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       >
         <div
           className="project-card__frame"
-          style={{ transform: `rotate(${rotation}deg)` }}
+          style={{ ['--rotation' as string]: `${rotation}deg` } as React.CSSProperties}
         >
+          {/* Folded corner — click affordance */}
+          <div className="project-card__fold" aria-hidden="true">
+            <span className="project-card__fold-label">OPEN FILE</span>
+          </div>
+
           {project.image ? (
             <img
               src={project.image}

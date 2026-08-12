@@ -101,7 +101,7 @@ export const projects: Project[] = [
     description: 'An educational Solana security reference repository. Each example pairs a deliberately broken instruction with its fixed counterpart, with inline comments explaining the vulnerability and the correct approach. Covers missing account validation, authority checks, unsafe arithmetic, and CPI re-entrancy risk — the mistakes that actually cause exploits.',
     stack: ['Rust', 'Anchor', 'Pinocchio', 'Solana'],
     github: 'https://github.com/SamuelOluwayomi/Anchor-Pinocchio-Security-Template',
-    image: '/sentry.png',
+    image: '/anchor.png',
     status: 'SHIPPED',
   },
   {
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     description: 'An AI agent integrated with the Ledger hardware signing stack. The agent assembles a transaction, routes it through a Ledger device for hardware-enforced review and signing, then broadcasts to Solana. Hardware-in-the-loop as a root of trust for autonomous agents handling real value. One of the first 50 valid submissions globally.',
     stack: ['TypeScript', 'Ledger DMK', 'Ledger Wallet CLI', 'Solana', 'Node.js'],
     github: 'https://github.com/SamuelOluwayomi/Ledger-solana-agent',
-    image: '/sentry.png',
+    image: '/ledger.png',
     status: 'SHIPPED',
     won: '$100 — Ledger N3XT Build and Show',
   },
@@ -122,7 +122,7 @@ export const projects: Project[] = [
     description: 'A contributed AI skill for the Solana AI Kit — a production-ready Claude Code configuration that turns coding agents into expert Solana builders. The ops skill covers Solana transaction infrastructure operations: bundle submission, lifecycle tracking, tip strategy, and failure classification for agents building onchain.',
     stack: ['Markdown', 'SKILL.md architecture', 'Solana tooling'],
     github: 'https://github.com/SamuelOluwayomi/solana-ops-skill',
-    image: '/sentry.png',
+    image: '/solana.png',
     status: 'SHIPPED',
   },
   {
