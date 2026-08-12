@@ -31,23 +31,15 @@ export function Process() {
 
         <div className="process__body">
           <motion.p variants={fadeUp}>
-            Every build starts with understanding the problem properly. Not jumping
-            in — <em>sitting with it</em>. Turning it over. Asking whether the thing
-            is actually worth building and whether it solves something real.
+            Before writing code, I start by thoroughly understanding the task and thinking through how useful the idea actually is. I want to make sure I'm solving a real problem for myself and hopefully for others.
           </motion.p>
 
           <motion.p variants={fadeUp}>
-            Then Pinterest. Reference gathering, visual direction, a picture in the
-            head of what it should look and feel like before a single component is
-            touched. The <em>UI comes first</em> — because a beautiful interface
-            keeps motivation alive through the hard parts. Around sixty percent done
-            on the frontend, the backend begins.
+            Next, I spend time on Pinterest gathering design inspiration. I prefer building about 60% of the UI first — a clean, responsive interface keeps me motivated as I move into the backend logic.
           </motion.p>
 
           <motion.p variants={fadeUp}>
-            When a project is serious, the laptop is open most of the day. Not
-            recklessly — <em>deliberately</em>. Breaks exist. Progress does not stop.
-            The work gets done.
+            When I'm working on a serious build, I stay on my laptop most of the day, making sure to take regular breaks so I stay sharp and produce my best work.
           </motion.p>
 
           <motion.div className="process__stamps" variants={fadeUp}>

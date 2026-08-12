@@ -65,8 +65,7 @@ export function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.7 }}
         >
-          A builder, an engineer, and someone who wants to make things that matter.
-          Scroll to read the file.
+          Fullstack & blockchain engineer. I build software that solves real problems and actually matters.
         </motion.p>
 
         <motion.button

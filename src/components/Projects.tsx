@@ -24,9 +24,7 @@ export function Projects() {
           marginBottom: '3rem',
           maxWidth: 560,
         }}>
-          Eleven builds. Every submission, every shipped product, every thing that
-          got finished — regardless of whether it won. Click any file to open the
-          case.
+          Projects I've built for hackathons, bounties, and client work — across Solana, Injective, HashKey, and Kaspa. Click any card to view the case file.
         </p>
       </motion.div>
 

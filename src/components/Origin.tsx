@@ -44,29 +44,25 @@ export function Origin() {
             </motion.h2>
 
             <motion.p variants={fadeUp}>
-              Nine years ago, a kid in secondary school was trying to write{' '}
-              <strong>C++ on his mother's phone.</strong> He gave up. Then came a
-              school subject on HTML and something lit up again — but there was
-              still no laptop. Then COVID. Then a coding school. Then Python for
-              four months. Then university.
+              I got into coding about 9 years ago in secondary school, trying to learn{' '}
+              <strong>C++ on my mom's phone</strong>. It was tough to keep up without a computer,
+              so I let it go. Later in senior school, an HTML class stirred up my interest in
+              building things again, though I didn't get my own laptop until COVID.
             </motion.p>
 
             <motion.p variants={fadeUp}>
-              Slow pace at first. But the pace kept growing. A{' '}
-              <strong>Django website</strong> for an auto repair shop nobody asked
-              him to build. Then React. Then JavaScript. Then TypeScript. YouTube
-              tutorials at odd hours. Documentation when the tutorials ran out.
-              Then AI coding became a thing — and the pace jumped again.
+              After secondary school while waiting for university, my parents enrolled me in a coding school
+              where I spent 4 months learning Python. Later at uni, while doing my SIWES 1 internship at an auto repair shop,
+              I pitched the need for a website to the owner — he agreed and paid me to build{' '}
+              <strong>Tunnel Auto Care in Django</strong>. That was my first paid project.
             </motion.p>
 
             <motion.p variants={fadeUp}>
-              Then <strong>Solana.</strong> Then bounties. Then hackathons. Then
-              the grind of showing up to competitions where the prize pool is real
-              but the odds are long. Still showing up.
+              From there, I moved into fullstack development with React, JavaScript, and TypeScript, learning through docs, tutorials, and practical builds. When AI coding tools came along, I integrated them to accelerate my workflow.
             </motion.p>
 
             <motion.p variants={fadeUp}>
-              Based in <em>Nigeria</em>. Building everywhere.
+              Recently, I've been building on <strong>Solana</strong> and participating in bounties and hackathons. What keeps me coming back is building useful products that solve real problems and getting better at my craft.
             </motion.p>
 
             <motion.blockquote className="origin__tagline" variants={fadeUp}>

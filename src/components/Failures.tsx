@@ -7,13 +7,13 @@ const failures = [
     id: 'sui-incubator',
     title: 'The Incubator Drop',
     sub: 'Sui Blockchain // Incubator',
-    body: 'Got into a Sui blockchain incubator. Midway through building, looked at it honestly and knew it had no future. Did not ship. Walked away. Sometimes stopping is the right call.',
+    body: "I joined an incubator on the Sui blockchain, but mid-way through building, I realized the project didn't have strong prospects, so I decided to step away.",
   },
   {
     id: 'rwa-lending',
     title: 'Democratised Lending',
     sub: 'DeFi // RWA // Paused',
-    body: 'Wanted to let people borrow against their stock holdings the same way banks quietly do for the wealthy. Pay back at a fair rate, no selling required. Found it already existed while still building. Filed away for now. Might still come back to it.',
+    body: "I wanted to build a platform where users could borrow against RWAs like stocks at reasonable interest without selling. While building, I saw that existing platforms were already covering this space well, so I put it on hold for now.",
   },
 ];
 
@@ -38,8 +38,7 @@ export function Failures() {
           marginBottom: '3rem',
           maxWidth: 560,
         }}>
-          Honesty is cheap when things are going well. These are the files that
-          got closed before they were finished.
+          Ideas and projects I decided to walk away from before finishing.
         </p>
       </motion.div>
 
