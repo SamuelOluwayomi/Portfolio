@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { ScrollProgress } from './components/ScrollProgress';
 import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
@@ -88,6 +89,7 @@ function App() {
       </main>
 
       <Footer />
+      <Analytics />
     </>
   );
 }
